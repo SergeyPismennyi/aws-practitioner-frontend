@@ -24,6 +24,13 @@ export default function PageProductImport() {
           Create product
         </Button>
       </Box>
+      <Box mb={2} display="flex" justifyContent="space-between">
+        <CSVFileImport
+          isPrivate
+          url={`${API_PATHS.import}/private/import`}
+          title="Import Products CSV Private API"
+        />
+      </Box>
       <ProductsTable />
     </Box>
   );
