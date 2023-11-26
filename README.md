@@ -1,3 +1,12 @@
+## Manual setup
+- [cloudfront](https://d3pfd1ubbteccm.cloudfront.net/)
+- [S3](http://sp-store-app-manual.s3-website-eu-west-1.amazonaws.com/)
+
+## Serverless setup
+- [cloudfront](https://d2tq9n750t90ap.cloudfront.net/)
+- [S3](http://sp-store-app.s3-website-eu-west-1.amazonaws.com)
+
+
 # React-shop-cloudfront
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
